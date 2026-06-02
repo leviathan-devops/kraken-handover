@@ -1,0 +1,62 @@
+{
+  "suite": "manta-hooks-v2.1",
+  "timestamp": 1780288905344,
+  "results": [
+    {
+      "test": "hook_exists: chat.message",
+      "passed": true
+    },
+    {
+      "test": "hook_exists: command.execute.before",
+      "passed": true
+    },
+    {
+      "test": "hook_exists: tool.execute.before",
+      "passed": true
+    },
+    {
+      "test": "hook_exists: tool.execute.after",
+      "passed": true
+    },
+    {
+      "test": "hook_exists: experimental.chat.messages.transform",
+      "passed": true
+    },
+    {
+      "test": "hook_exists: experimental.session.compacting",
+      "passed": true
+    },
+    {
+      "test": "hook_exists: experimental.chat.system.transform",
+      "passed": true
+    },
+    {
+      "test": "hook_exists: event",
+      "passed": true
+    },
+    {
+      "test": "chat.message fires for shark",
+      "passed": true
+    },
+    {
+      "test": "system.transform injects 2 entries",
+      "passed": true
+    },
+    {
+      "test": "guardian blocks shark",
+      "passed": true
+    },
+    {
+      "test": "guardian allows vanilla",
+      "passed": true
+    },
+    {
+      "test": "command.execute.before fires",
+      "passed": true
+    }
+  ],
+  "passed": 13,
+  "total": 13,
+  "overallPassed": true,
+  "passRate": 1
+}

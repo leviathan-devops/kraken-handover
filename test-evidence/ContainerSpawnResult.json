@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "containerName": "test-kraken-v13-rg-0602224125",
+  "image": "opencode-test:1.14.43",
+  "hostVersion": "1.14.43",
+  "containerVersion": "1.14.43",
+  "versionMatch": true,
+  "pluginCount": 8,
+  "plugins": ["subagent-manager", "kraken-agent", "shark-agent", "manta-agent-v1.5", "hive-mind", "trident", "spider-agent-v2", "agent-vision"],
+  "identityFiles": 5,
+  "krakenContext": 11,
+  "configSource": "LIVE /home/leviathan/.config/opencode/opencode.json",
+  "timestamp": "2026-06-02T18:48:27Z"
+}

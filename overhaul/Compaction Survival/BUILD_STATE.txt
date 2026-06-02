@@ -1,0 +1,47 @@
+=== CHECKPOINT: v1.4-All-Infrastructure-Complete ===
+Date: 2026-06-01 22:15 UTC
+Phase: ALL 6 INFRASTRUCTURE TASKS COMPLETE — Container testing next
+
+CURRENT STATE:
+- Ship V1.4: 90 source files, runtime grade verified
+- Bundle: 140 modules, 0.75MB, 23ms build — CLEAN
+- Identity: Lightning Mode behavioral contract as DEFAULT, no off switch
+- Compaction Survival: SystemBrain.initializeProject() with 5-file auto-gen
+- Browser: Graceful degradation when binary missing, vlm_health standalone tool
+- Context Injection: Gate-aware T2 reference injection in system.transform
+- P1-P12: ALL PASS (zero as-any, zero empty catches, zero console.log, zero hardcoded secrets)
+
+COMPLETED INFRASTRUCTURE (this session):
+1. Compaction Survival Architecture — SystemBrain.initializeProject() + 5 files + append methods + enhanced compaction hook
+2. Lightning Mode Identity Overhaul — IDENTITY.md/KRAKEN.md/EXECUTION.md rewritten with formula
+3. Agent Browser Resilience — isBrowserAvailable() + graceful degradation + vlm_health tool
+4. Dynamic Context Injection — getRelevantContextForGate() gate-aware T2 injection
+5. Runtime Grade P1-P12 Sweep — 90 files, all clean
+6. Container Test Bundle Synced
+
+PREVIOUSLY COMPLETED (V1.2→V1.3):
+- All V10_FINAL source restored (90 source files)
+- 15/15 tools, 10/10 core classes
+- L7 require() eliminated (7 calls → static imports)
+- 9 P2 violations fixed (null guards)
+- API key externalized, wildcard permissions removed
+- 27 runtime bugs found and fixed
+- Container verified: identity, tools, hive, L6 zones, L1 theater, agent switching
+
+REMAINING:
+- Runtime Grade Container Test (full adversarial protocol per Bible)
+- End-to-end orchestration test (spawn tools with real subagents)
+- Firewall L0-L10 systematic test (42 test cases)
+
+COMPACTION SURVIVAL FILES:
+- Compaction Survival/COMPACTION_SURVIVAL.md — Master reference (this file)
+- Compaction Survival/BUILD_LOG.md — Running changelog
+- Compaction Survival/DEBUG_LOG.md — 4 bugs documented
+- Compaction Survival/POST_COMPACTION_PROMPT.md — Recovery protocol
+- Compaction Survival/SOC_CAPTURE.md — Stream of consciousness
+
+SHIP PACKAGE:
+- Ship Packages/KRAKEN_V1.3_RUNTIME_GRADE_VERIFIED/
+- Bundle: dist/kraken-agent.js (0.75MB)
+- Container test: container-test/config/plugins/kraken-agent/dist/index.js
+- Identity: identity/orchestrator/ (5 files with Lightning Mode)

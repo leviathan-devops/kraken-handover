@@ -1,0 +1,38 @@
+{
+  "model": "xiaomi-token-plan-sgp/mimo-v2",
+  "provider": {
+    "xiaomi-token-plan-sgp": {
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "baseURL": "https://token-plan-sgp.xiaomimimo.com/v1",
+        "apiKey": "${XIAOMI_API_KEY}"
+      }
+    },
+    "opencode-zen": {
+      "options": {
+        "apiKey": "zen-free-tier"
+      }
+    },
+    "openrouter": {
+      "options": {
+        "apiKey": "or-free-tier"
+      }
+    },
+    "google": {
+      "options": {
+        "apiKey": "gemini-free-tier"
+      }
+    }
+  },
+  "plugin": [
+    "file:///root/.config/opencode/plugins/kraken-agent/dist/index.js"
+  ],
+  "agent": {
+    "kraken": {
+      "name": "kraken",
+      "mode": "primary",
+      "tools": {}
+    }
+  },
+  "permission": {}
+}

@@ -1,0 +1,13 @@
+=== CHECKPOINT: v1.2_v11_SESSION_PATTERNS_ADDED ===
+Date: 2026-05-30 06:00 UTC | Gate: TEST
+
+FIXES APPLIED:
+- ALL layers throw [FIREWALL_BLOCKED] (was: only L0/L6)
+- safeHook re-throws firewall errors  
+- Identity: 'NEVER use bash' always injects
+- L5: 15 DIRECT_INFRASTRUCTURE patterns (docker, opencode run, environment blame)
+- SubagentManagerBrain: real Docker operations
+- Python wrappers: 6 fixes (image, entrypoint, model, mounts, Python 3.9 compat)
+- Retry: 1 attempt, 30s timeout
+
+NEXT: Full container TUI behavioral test per T2_TUI_TESTING protocol

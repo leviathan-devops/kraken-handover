@@ -1,0 +1,40 @@
+{
+  "overallPassed": false,
+  "tier0_bundle": {"passed": 29, "failed": 0, "note": "Bundle verification only, NOT runtime grade"},
+  "tier2_identity_scoping": {
+    "tier1_kraken": {"orchestrator": true, "execContext": true, "identityLen": "500+"},
+    "tier1_executor": {"orchestrator": true, "execContext": true},
+    "tier2_shark": {"noOrchestrator": true, "noExecContext": true, "noTaskAssignment": true},
+    "tier2_manta": {"noOrchestrator": true, "noExecContext": true},
+    "tier3_non_kraken": {"build": "empty", "general": "empty", "spider": "empty", "trident": "empty", "plan": "empty"},
+    "passed": 12, "failed": 0
+  },
+  "phase1_module_surface": {
+    "tools": 23, "hooks": 7, "agents": 11, "brains": 3,
+    "passed": true
+  },
+  "phase5_theatrical_audit": {
+    "tools_real_output": "23/23",
+    "passed": true
+  },
+  "phase7_config_audit": {
+    "pluginCount": 8, "matchesLive": true,
+    "wildcardPermission": true,
+    "note": "Wildcard matches live host config — not a test override"
+  },
+  "tier4_tui": {
+    "agent": "kraken",
+    "identityResponse": "Trident Brain v4.2 (cross-plugin interference)",
+    "issue": "Trident plugin overrides Kraken identity when all 8 plugins loaded",
+    "passed": false
+  },
+  "spawn_test": {
+    "architecture": "correct",
+    "clusterEngine": "constructs and activates",
+    "firewall_L4": "correctly blocks wrong cluster routing",
+    "delegation": "fails — no Docker-in-Docker (expected in container)",
+    "note": "Architectural correctness verified, environmental limitation"
+  },
+  "binaryVersion": {"host": "1.14.43", "container": "1.14.43", "match": true},
+  "timestamp": "2026-06-02T18:48:27Z"
+}
