@@ -4,7 +4,7 @@
 **Default Model:** `xiaomi-token-plan-sgp/mimo-v2.5-pro` (MiMo credits — milk it)
 **Permitted Fallbacks:** `opencode-zen/deepseek-v4-flash-free`, `openrouter/deepseek-v4-flash-free`, `openrouter/nemotron-3-super-free`, `google/Gemma-4-26b`
 **BANNED:** `minimax/*`, `deepseek/*` direct API (use free tiers via opencode-zen or openrouter), `xlam2/*`, any paid API except MiMo
-**MiMo API Key:** tp-ssy5nlzfc5vccack4ccierszbs0fojjp0lp3uj37hlp328ci
+**MiMo API Key:** <REDACTED_SET_VIA_ENV>
 **Previous version (1.4.3):** ARCHIVED — outdated binary paths, wrong config format, wrong entrypoint pattern
 
 ---
@@ -242,7 +242,7 @@ Strike 3: Escalate — NEVER theatrical-code
 When the model returns "ProviderModelNotFoundError" or "401 Unauthorized":
 ```bash
 # Verify the key is still valid
-docker exec "$CONTAINER" curl -s -H "Authorization: Bearer tp-ssy5nlzfc5vccack4ccierszbs0fojjp0lp3uj37hlp328ci" \
+docker exec "$CONTAINER" curl -s -H "Authorization: Bearer <REDACTED_SET_VIA_ENV>" \
   "https://token-plan-sgp.xiaomimimo.com/v1/models" | head -5
 
 # If key is expired → update in THIS DOCUMENT and retry
@@ -343,7 +343,7 @@ cat > "$SNAP/opencode.json" << EOF
       "npm": "@ai-sdk/openai-compatible",
       "options": {
         "baseURL": "https://token-plan-sgp.xiaomimimo.com/v1",
-        "apiKey": "tp-ssy5nlzfc5vccack4ccierszbs0fojjp0lp3uj37hlp328ci"
+        "apiKey": "<REDACTED_SET_VIA_ENV>"
       }
     },
     "opencode-zen": {

@@ -4,3 +4,13 @@ overhaul/Ship Package v13/
 overhaul/subagent-manager/
 overhaul/wrappers/
 node_modules/
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_rsa.*

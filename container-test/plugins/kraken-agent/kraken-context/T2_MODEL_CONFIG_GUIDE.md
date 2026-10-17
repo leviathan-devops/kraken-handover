@@ -16,7 +16,7 @@
       "npm": "@ai-sdk/openai-compatible",
       "options": {
         "baseURL": "https://token-plan-sgp.xiaomimimo.com/v1",
-        "apiKey": "tp-ssy5nlzfc5vccack4ccierszbs0fojjp0lp3uj37hlp328ci"
+        "apiKey": "<REDACTED_SET_VIA_ENV>"
       }
     },
     "openrouter": {
@@ -67,7 +67,7 @@
 ```
 Provider: xiaomi-token-plan-sgp
 Model:    xiaomi-token-plan-sgp/mimo-v2.5-pro
-API Key:  tp-ssy5nlzfc5vccack4ccierszbs0fojjp0lp3uj37hlp328ci
+API Key:  <REDACTED_SET_VIA_ENV>
 Base URL: https://token-plan-sgp.xiaomimimo.com/v1
 Status:   PAID — milk while credits last
 ```
@@ -80,7 +80,7 @@ Status:   PAID — milk while credits last
       "npm": "@ai-sdk/openai-compatible",
       "options": {
         "baseURL": "https://token-plan-sgp.xiaomimimo.com/v1",
-        "apiKey": "tp-ssy5nlzfc5vccack4ccierszbs0fojjp0lp3uj37hlp328ci"
+        "apiKey": "<REDACTED_SET_VIA_ENV>"
       }
     }
   }

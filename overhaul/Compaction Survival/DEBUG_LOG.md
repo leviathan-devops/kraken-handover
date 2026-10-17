@@ -21,7 +21,7 @@
 
 ### BUG #3: API key exposed in ship package
 - **Detected:** 2026-06-01 21:00 (Trident audit)
-- **Symptom:** Hardcoded `tp-ssy5nlzfc5vccack4ccierszbs0fojjp0lp3uj37hlp328ci` in container-test/opencode.json
+- **Symptom:** Hardcoded `<REDACTED_SET_VIA_ENV>` in container-test/opencode.json
 - **Root Cause:** Development config committed to ship package
 - **Fix Applied:** Replaced with `${XIAOMI_API_KEY}` env var reference
 - **Fix Location:** container-test/opencode.json:1
