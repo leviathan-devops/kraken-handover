@@ -12914,7 +12914,7 @@ cat > "$SNAP/opencode.json" << EOF
       "npm": "@ai-sdk/openai-compatible",
       "options": {
         "baseURL": "https://token-plan-sgp.xiaomimimo.com/v1",
-        "apiKey": "tp-siu1121nmwbyy35kaaposo74rl89cvlpkqcaxfuota1me775"
+        "apiKey": "<REDACTED_SET_VIA_ENV>"
       }
     }
   },

@@ -150,7 +150,7 @@ Image:     opencode-test:1.14.34
 Binary:    /usr/local/lib/node_modules/opencode-ai/node_modules/opencode-linux-x64-baseline/bin/opencode
 Model:     xiaomi-token-plan-sgp/mimo-v2.5-pro
 API:       https://token-plan-sgp.xiaomimimo.com/v1
-Key:       tp-ssy5nlzfc5vccack4ccierszbs0fojjp0lp3uj37hlp328ci
+Key:       <REDACTED_SET_VIA_ENV>
 Build:     bun build src/index.ts --outfile dist/kraken-agent.js --target bun --format esm --bundle --external @opencode-ai/plugin
 Network:   --network host (for OpenViking at localhost:1933)
 ```
